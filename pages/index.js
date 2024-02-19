@@ -29,7 +29,7 @@ export default function Home({ githubProfileData }) {
 					description:
 						"Writing code to help people.",
 					image: "https://media-exp1.licdn.com/dms/image/C4D03AQEo6xOfO_wsTw/profile-displayphoto-shrink_800_800/0/1663132602828?e=1671667200&v=beta&t=gy-enZnCz_ZaLZxQqAOeS9ZA1cxtn8IOrORKiDUL14A",
-					url: "https://denishsuhagiya.github.io/",
+					url: "https://denish004.github.io/denishsuhagiya/",
 					keywords: [
 						"Denish Suhagiya",
 						"Denish",
