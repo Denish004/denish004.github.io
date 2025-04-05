@@ -196,8 +196,8 @@ export const experience = [
 		date: "Nov 2023 – present",
 		// desc: "A contactless dining application for restaurants. The application is built using ReactJs, NodeJS, MongoDB and deployed using AWS.",
 		descBullets: [
-			" As a committee member, I will conducting workshops, events for the juniors in our college very soon.",
-			" I have also been part of a collaborative project where i have been assigned the task to make GDSC web page.",
+			" As a committee member, I have conducted workshops, events for the juniors in my college.",
+			" I have also been part of a collaborative project where i have completed the task to make GDSC web page.",
 		]
 	},
 	// {
@@ -216,43 +216,34 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "RentEase",
-		stacks: ["Javscript","HTML", "CSS", "React", "Node JS", "Express Js", "Mongo DB", "Postman API"],
-		descBullets: [
-			"Spearheaded the development of RentEase, increasing website efficiency by 20% through the integration of cloudinary for optimized image storage.",
-"Implemented user-centric features, such as a landlord dashboard for property management and a tenant interface for seamless transactions, enhancing overall platform efficiency.",
-" Leveraged AI technology to deliver personalized property recommendations to users, resulting in a increase in user engagement and browsing efficiency.",
-" Developed a robust payment system enabling tenants to manage rent payments securely, reducing transaction latency by 15% and improving payment processing efficiency.",
-" Implemented a real-time chat system using socket.io and webRTC, facilitating direct communication between users and landlords within the platform, reducing response times by 40%.",
-" Deployed an AI chatbot as a user-friendly guide, improving user support efficiency by 64% and enhancing the overall browsing and transaction experience"
-			],
-	},
+        name: "RentEase",
+        stacks: ["Javscript", "HTML", "CSS", "tailwind CSS", "React", "Node JS", "Express Js", "Cloudinary", "Mongo DB", "Postman API"],
+        descBullets: [
+            "Developed a comprehensive web platform connecting tenants and landlords, integrating all essential features.",
+            "Accomplished a 50% reduction in property search time using React.js, Express.js, and MongoDB by implementing an efficient property attribute filtering system used in the Filter tab.",
+            "Elevated property management efficiency by 30% for landlords through the implementation of CRUD operations on a MongoDB database, enabling seamless listing, modification, and removal of properties."
+        ],
+    },
 
 	{
-		name: "Karigar",
-		stacks: ["Javscript","HTML", "CSS", "React", "Node JS", "Express Js", "Mongo DB", "BootStrap","Fast API"],
-		descBullets: [
-			"Pioneered the development of an innovative platform, revolutionizing artisanal visibility and significantly helping in enhancing sales efficiency.",
-			"Implemented an advanced NLP model, empowering artisans to craft captivating captions and blogs, thereby enriching product presentation and appeal.",
-			 "Elevated user experience with a sophisticated recommendation model, streamlining product discovery and reducing latency times by an impressive 30% through tailored product suggestions.",
-			"Leveraged cutting-edge Explainable AI algorithms to meticulously analyze customer data, resulting in precise audience segmentation which will increase the conversion rates.",
-			"Applied sophisticated Reinforcement Learning techniques to meticulously refine digital marketing strategies, leading to a boost in community engagement through highly targeted campaigns.",
-			"Empowered artisans with actionable market insights via a comprehensive feedback system, facilitating strategic decision-making and continual improvement."
-			],
-	},
+        name: "Shiksha Portal",
+        stacks: ["Javscript", "HTML", "CSS", "React", "Node JS", "Express Js", "Mongo DB", "BootStrap", "Firebase"],
+        descBullets: [
+            "Streamlined database management with improved data integrity by implementing a registration form on the website, using input constraints to reduce errors by 30%.",
+            "Accomplished streamlined access to supplementary resources using Firebase by enabling teachers to upload and organize subject-related files.",
+            "Optimized grading efficiency by 50% through Firebase by providing students with a user-friendly interface to electronically submit subject-related files before deadlines."
+        ],
+    },
 
-	{
-		name: "Student Dropout Analysis",
-		stacks: ["Javscript","HTML", "CSS", "React", "Node JS", "Express Js", "Mongo DB", "Postman API"],
-		descBullets: [
-			"Data-Driven Decision Making: Employ dynamic pie charts and bar graphs using google charts to visually represent student dropout rates.",
-			" Inclusive Education: Analyze gender and caste-based dropout trends for equality.",
-			" Inclusive Education: Analyze gender and caste-based dropout trends for equality.",
-			" Red List Creation: The government can place a school on the red list if it fails to adhere to the prescribed instructions.",
-			" Location-Based Solutions: Heat maps to target areas with higher dropout rates.",
-			" Solution Book: A book containing solutions to common dropout causes. So by utilizing it school can prevent dropouts at their level."
-			],
-	},
+    {
+        name: "TheraSpeech",
+        stacks: ["React", "Node JS", "Express JS", "MongoDB", "tailwind CSS", "Bootstrap"],
+        descBullets: [
+            "Spearheaded the development of digital speech therapy services by leading a team of developers.",
+            "Developed the patient interface using frontend technologies like HTML, React, Tailwind CSS, and Material UI for displaying profile details, progress graphs, and scheduled sessions.",
+            "Coordinated with team members to develop backend services to manage GET and POST requests for retrieving patient details, session information, and therapist data."
+        ],
+    },
 
 	// {
 	// 	name: "Simulation of Distributed Architecture on a Single Node using Nodes emulated by Docker",
